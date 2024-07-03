@@ -12,7 +12,49 @@ body {
     background-color: #ffffff
 }
 
+p, h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+
 /*---------HEADER---------*/
+
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+ 
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-list-nav {
+    display: flex;
+    gap: 40px;
+}
+
+.header-list {
+    display: flex;
+    gap: 40px;
+}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+    flex-grow: 1;
+    margin-right: 332px;
+  }
+
 nav .logo {
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -21,7 +63,11 @@ nav .logo {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    margin-right: 76px;
 }
+
 
 nav .logo .logotext {
     color: #2e2f42;
@@ -67,6 +113,9 @@ nav .but:hover, .but:focus {
     background: #2e2f42;
 }
 
+.hero-container {
+    padding: 188px 0;
+}
 .mainheader {
     font-weight: 700;
     font-size: 56px;
@@ -74,7 +123,9 @@ nav .but:hover, .but:focus {
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
 }
 
 button {
@@ -86,6 +137,12 @@ button {
     background: #4d5ae5;
     color: #fff;
     cursor: pointer;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    border-radius: 4px;
+    margin: 0 auto;
 }
 
 
@@ -112,6 +169,7 @@ button:hover, button:focus {
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin: 0;
+    margin-bottom: 8px;
 }
 
 .smalltext {
@@ -128,7 +186,25 @@ button:hover, button:focus {
 
 .rules ul li {
     background-color: #FFFFFF;
+    padding-top: 120px;
+    padding-bottom: 120px;
+
 }
+
+.rules-list {
+    display: flex;
+    padding: 0 18px;
+    gap: 24px;
+
+}
+.rules-container {
+    padding: 120px, 156px;
+    
+}
+
+.rules-list-item {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
 
 /*------------------*/
 
@@ -138,6 +214,9 @@ button:hover, button:focus {
     background-color: #ffffff;
 }
 
+.portfolio ul li {
+
+}
 .name {
     font-weight: 500;
     font-size: 20px;
@@ -165,6 +244,7 @@ button:hover, button:focus {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4d5ae5;
+    margin-bottom: 16px;
 }
 
 .footer .footerlogo .logotext {
@@ -192,8 +272,41 @@ nav ul li:first-child .but:focus {
 
 .team ul li {
     background-color: #FFFFFF;
+    
+}
+.team .team-container .header1 {
+    margin-bottom: 72px;
+}
+.team-list {
+    display: flex;
+    padding: 0 18px;
+    gap: 24px;
 }
 
+.team-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-img {
+    margin-bottom: 32px;
+}
+
+.people {
+    flex-basis: calc((100% - 3 * 24px) / 4);
+  }
+
+.name {
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.team-list .people .smalltext {
+    margin-bottom: 32px;
+    text-align: center;
+
+}
 /*-------------------------------*/
 
 a {
@@ -202,7 +315,8 @@ a {
 
 ul {
     list-style: none;
-    margin: 0;
+    margin-top: 0;
+    margin-top: 0;
     padding-left: 0;
 }
 
@@ -213,12 +327,19 @@ ul {
     margin: -1px;
     border: 0;
     padding: 0;
-    
     white-space: nowrap;
     overflow: hidden;
+    margin-bottom: 8px;
   }
 
 img {
     max-width: 100%;
     display: block;
+    height: auto
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
