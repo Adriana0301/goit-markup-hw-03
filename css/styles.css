@@ -315,6 +315,7 @@ nav ul li:first-child .but:focus {
 }
 
 /*------------Teams-------------*/
+
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
@@ -325,11 +326,6 @@ nav ul li:first-child .but:focus {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
-    margin-right: 24px;
-}
-
-.people:last-child {
-    margin-right: 0;
 }
 
 .team-list-container {
@@ -343,6 +339,7 @@ nav ul li:first-child .but:focus {
 
 .team-list {
     display: flex;
+    align-items: center;
     padding: 0 18px;
     gap: 24px;
 }
