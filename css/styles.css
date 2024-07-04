@@ -48,6 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
 .header-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0
 }
 
 .header-navigation {
@@ -191,7 +192,7 @@ button:hover, button:focus {
     padding: 120px 0
 }
 
-.rules ul li {
+.rules-list-item {
     background-color: #FFFFFF;
     padding-top: 120px;
     padding-bottom: 120px;
@@ -214,8 +215,11 @@ button:hover, button:focus {
 
 /*---------Portfolio---------*/
 
+.portfolio {
+    padding: 120px 0 120px 0;    
+}
 .portfolio-container {
-    padding: 120px 0 120px 0
+    padding: 120px 0 120px 0;
 }
 
 .portfolioitems {
