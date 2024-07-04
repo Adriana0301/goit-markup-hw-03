@@ -42,9 +42,6 @@ p, h1, h2, h3, h4, h5, h6 {
 .header-list-nav {
     display: flex;
     gap: 40px;
-    padding-top: 24px;
-    padding-bottom: 24px;
-
 }
 
 .header-list {
@@ -195,22 +192,23 @@ button:hover, button:focus {
 /*---------Rules---------*/
 
 .rules {
-    padding: 120px 0
+    padding: 120px 0;
+    text-align: center;
+}
+
+.rules-list {
+    padding: 120px 0;
+    align-items: center;
+    display: flex;
+    gap: 24px;
 }
 
 .rules-list-item {
     background-color: #FFFFFF;
-    width: calc((100% - 3 * 24px) / 4);
+    flex-basis: calc((100% - 3 * 24px) / 4);
 
 }
 
-.rules-list {
-    display: flex;
-    padding: 0 18px;
-    gap: 24px;
-
-
-}
 .rules-container {
     padding: 120px 0;
     
@@ -315,6 +313,7 @@ nav ul li:first-child .but:focus {
 .team {
     background-color: #f4f4fd;
     padding: 120px 0;
+    text-align: center;
 }
 
 .people {
@@ -407,8 +406,3 @@ img {
     box-sizing: border-box;
 }
 
-.rules-list-item:first-child,
-.people:first-child {
-    width: calc((100% - 3 * 24px) / 4); 
-
-}
