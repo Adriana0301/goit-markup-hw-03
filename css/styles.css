@@ -212,11 +212,15 @@ button:hover, button:focus {
 
 .portfolioitem {
     background-color: #ffffff;
+    width: calc((100% - 4*24x) / 6);
 }
 
-.portfolio ul li {
-
+.portfolio-list {
+    display: flex;
+    gap: 48px 24px;
+    flex-wrap: wrap;
 }
+
 .name {
     font-weight: 500;
     font-size: 20px;
@@ -227,6 +231,22 @@ button:hover, button:focus {
 
 }
 
+.portfolio-container {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.portfolio-header {
+    margin-bottom: 62px;
+}
+
+.portfolio-img {
+    margin-bottom: 32px;
+}
+
+.portfolio .portfolio-container .portfolio-list .headers {
+    margin-bottom: 8px;
+}
 /*-------------------------*/
 
 /*---------Footer---------*/
@@ -236,7 +256,7 @@ button:hover, button:focus {
 
 }
  
-.footer .footerlogo {
+.footer .footer-container .footerlogo {
     font-family: "Raleway", sans-serif; 
     font-weight: 700;
     font-size: 18px;
@@ -247,7 +267,7 @@ button:hover, button:focus {
     margin-bottom: 16px;
 }
 
-.footer .footerlogo .logotext {
+.footer .footer-container .footerlogo .logotext {
     color: #f4f4fd;
     
 }
@@ -256,7 +276,14 @@ button:hover, button:focus {
     line-height: 1.5;
     color: var(--footer-text-color);
     letter-spacing: 0.02em;
-    margin: 0;
+    max-width: 264px;
+    margin-top: 16px;
+
+}
+
+.footer-container {
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 /*------------------------------*/
@@ -277,6 +304,7 @@ nav ul li:first-child .but:focus {
 .team .team-container .header1 {
     margin-bottom: 72px;
 }
+
 .team-list {
     display: flex;
     padding: 0 18px;
