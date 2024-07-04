@@ -64,9 +64,10 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 .header-list-nav-but {
-    padding: 24px 0;
-
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
+
 
 nav .logo {
     font-family: "Raleway", sans-serif;
@@ -203,6 +204,7 @@ button:hover, button:focus {
 
 .rules-list-item {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
 
 }
 
@@ -225,6 +227,7 @@ button:hover, button:focus {
 .portfolio {
     padding: 120px 0 120px 0;    
 }
+
 .portfolio-container {
     padding: 120px 0 120px 0;
 }
@@ -320,6 +323,7 @@ nav ul li:first-child .but:focus {
 
 .people {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
