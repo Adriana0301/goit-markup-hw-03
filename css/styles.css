@@ -322,6 +322,13 @@ nav ul li:first-child .but:focus {
     text-align: center;
 }
 
+.team-list {
+    display: flex;
+    align-items: center;
+    padding: 120px 0;
+    gap: 24px;
+}
+
 .people {
     background-color: #FFFFFF;
     width: calc((100% - 3 * 24px) / 4);
@@ -335,13 +342,6 @@ nav ul li:first-child .but:focus {
 
 .team .team-container .header-team {
     margin-bottom: 72px;
-}
-
-.team-list {
-    display: flex;
-    align-items: center;
-    padding: 0 18px;
-    gap: 24px;
 }
 
 .team-container {
