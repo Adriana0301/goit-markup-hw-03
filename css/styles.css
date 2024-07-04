@@ -204,12 +204,8 @@ button:hover, button:focus {
 
 .rules-list-item {
     background-color: #FFFFFF;
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.rules-list-item {
     width: calc((100% - 3 * 24px) / 4);
+
 }
 
 .rules-list {
@@ -324,12 +320,9 @@ nav ul li:first-child .but:focus {
     padding: 120px 0;
 }
 
-.team ul li {
-    width: calc((100% - 3 * 24px) / 4);
-}
-
 .people {
     background-color: #FFFFFF;
+    width: calc((100% - 3 * 24px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 
